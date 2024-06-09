@@ -8,6 +8,7 @@
   min-height: 50vh;
   margin: auto;
   margin-top: 10%;
+
   background-color: blueviolet;
   padding: 15px;
   width: 450px;
@@ -17,8 +18,11 @@
   min-height: 50vh; */
 }
 .screen {
+  display: flex;
+  align-items: center;
   background: whitesmoke;
   width: 410px;
+  height: 150px;
   margin: 10px;
   padding: 30px;
 }
@@ -28,7 +32,6 @@
   grid-template-rows: 50px 50px 50px 50px;
   grid-auto-rows: 80px;
   margin: 10px;
-
   row-gap: 3px;
   column-gap: 3px;
 }
